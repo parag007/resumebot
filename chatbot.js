@@ -2,7 +2,7 @@
 // Initialize the Amazon Cognito credentials provider
 AWS.config.region = 'us-east-1'; // Region
 AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-    IdentityPoolId: 'us-east-1:3ea9d663-1437-4d6e-845c-08dc9977cbb7',
+    IdentityPoolId: 'us-east-1:c9788da1-3f21-4f24-8f3c-1a4ed8446432',
 });
 
 //Initialize lexRunTime
